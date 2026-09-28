@@ -1,13 +1,13 @@
 cask "skills-manager" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.1.7"
-  sha256 arm:   "31a27ccd3af259d3f22accbf9ee7cdc22709779174e2569b5b5ebedf9725249d",
-         intel: "d34aeb57a42e19d7fb67b61c47e562af639f92fdd5f1bc0338a414e7991f2a2c"
+  version "1.2.0"
+  sha256 arm:   "0c066c6432bb8636632dadf7c7a159bbc3572c42e58d8799b08f07d6d1cb9c89",
+         intel: "7b2c5a689a64672c818c3f5f201afccf2943ed83189dbf88f5c1219931ee4492"
 
   url "https://github.com/haydenull/skills-manager/releases/download/v#{version}/skills-manager-#{version}-#{arch}.dmg"
   name "Skills Manager"
-  desc "Desktop skills manager for Claude Code and Codex"
+  desc "Desktop skills manager for Claude Code, Codex, and OpenCode"
   homepage "https://github.com/haydenull/skills-manager"
 
   depends_on macos: ">= :monterey"
